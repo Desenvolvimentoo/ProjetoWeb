@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Black+Han+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+link{
+    color: blue;
+}
+
+.titulo{
+    color: green;
+}
+
+.organizacao {
+    margin: 20% 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.organizacao_secao {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    gap: 20px;
+}
+
+.organizacao_secao_titulo {
+    font-size: 36px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.organizacao_secao_texto {
+    font-size: 24px;
+    font-family: 'Average Sans', sans-serif;
+}
+
+.organizacao_links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.organizacao_links_link {
+    text-decoration: none;
+    background-color: aqua;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px 0;
+    color: black;
+    font-family: 'Average Sans', sans-serif;
+}
